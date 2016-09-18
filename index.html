@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Local Weather App</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+	<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="cloud-container">
+			<div class="cloud">&#x2601;</div>		
+		</div>
+		<div id="moving-cloud-container">
+			<div class="cloud moving-cloud">&#x2601;</div>
+		</div>
+		<div id="location">San Francisco</div>
+		<div id="description"></div>
+		<div id="temp-position" unselectable="on">
+			<div id="degree"></div>
+			<div id="switch">&#x2109</div>
+		</div>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
