@@ -1,0 +1,59 @@
+body {
+	background-color: grey;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#container {
+	margin-top: 100px;
+}
+
+#cloud-container {
+	position: absolute;
+	margin: -100px 0 20px 750px;
+}
+
+.cloud {
+	font-size: 3em;
+}
+
+#moving-cloud-container {
+	position: absolute;
+	margin: -106px 0 0 750px ;
+}
+
+#moving-cloud {
+	position: relative;
+	margin-left: 30px;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+#location {
+	margin-top: 200px;
+	font: 2.5em arial sans-serif;
+}
+
+#description {
+	margin-top: 10px;
+	font: 2em sans-serif;
+}
+
+#temp-position {
+	margin-top: 25px;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+#degree {
+	margin-left: 40px;
+	display: inline-block;
+	font-size: 10em;
+}
+
+#switch {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 3em;
+	color: white;
+}
