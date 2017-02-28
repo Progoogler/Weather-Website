@@ -9,8 +9,8 @@ body {
 }
 
 #cloud-container {
-	position: absolute;
-	margin: -100px 0 20px 750px;
+	position: relative;
+	margin-bottom: 4em;
 }
 
 .cloud {
@@ -18,8 +18,8 @@ body {
 }
 
 #moving-cloud-container {
-	position: absolute;
-	margin: -106px 0 0 750px ;
+	position: relative;
+	margin: -8em 0 0 0;
 }
 
 #moving-cloud {
@@ -29,8 +29,9 @@ body {
 }
 
 #location {
-	margin-top: 200px;
+	margin-top: 40px;
 	font: 2.5em arial sans-serif;
+	font-weight: bold;
 }
 
 #description {
